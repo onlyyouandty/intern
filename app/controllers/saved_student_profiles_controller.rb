@@ -2,8 +2,8 @@ class SavedStudentProfilesController < ApplicationController
   before_filter :authenticate_user!
   #keep user from accessing their profile if they haven't created it yet
   before_filter :profile_redir
-  #redirect company if they haven't been verified
-  before_filter :verified?
+  # #redirect company if they haven't been verified
+  # before_filter :verified?
   #keep user from accessing any method that isn't connected to their profile
   before_filter {
       |c|
