@@ -10,7 +10,6 @@ gem 'rails', '3.2.12'
 #heroku also needs to be told to use ruby 1.9.3
 #ruby "1.9.3"
 #gem 'pg'
-gem 'sqlite3'
 
 
 
@@ -48,7 +47,7 @@ gem 'acts_as_list'
 gem 'carrierwave'
 
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+gem 'jbuilder'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -66,3 +65,28 @@ gem 'foundation-rails'
 gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git"
 gem "paperclip-dropbox", ">= 1.1.7"
 gem 'compass-rails'
+
+
+source 'https://rubygems.org'
+ruby "2.1.3"
+
+
+
+# Use Uglifier as compressor for JavaScript assets
+gem 'turbolinks'
+
+
+gem 'autoprefixer-rails'
+
+gem 'railties'
+
+gem 'figaro'
+
+group :development do
+	gem 'sqlite3'
+end
+
+group :production do
+	# gem 'pg'
+	gem 'rails_12factor'
+end
