@@ -5606,3 +5606,979 @@ Served asset /application.js - 200 OK (84ms)
 
 Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:28:31 +0100
 Served asset /intern.png - 304 Not Modified (44ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:45:39 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (142.1ms)
+  Rendered devise/menu/_login_items.erb (1.3ms)
+  Rendered devise/menu/_registration_items.erb (0.9ms)
+  Rendered devise/menu/_admin_items.erb (0.6ms)
+  Rendered devise/menu/_common_user_items.erb (0.8ms)
+Completed 200 OK in 1094ms (Views: 1027.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 17:45:40 +0100
+Served asset /application.css - 304 Not Modified (47ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:40 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:40 +0100
+Served asset /jquery.js - 304 Not Modified (55ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:40 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:40 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:40 +0100
+Served asset /jquery-ui.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /qsort.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /active_admin.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /application.js - 304 Not Modified (72ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /active_admin/base.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /active_admin/application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:45:41 +0100
+Served asset /intern.png - 304 Not Modified (25ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:45:44 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 5ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+  Rendered devise/menu/_login_items.erb (0.6ms)
+  Rendered devise/menu/_registration_items.erb (1.6ms)
+  Rendered devise/menu/_admin_items.erb (0.2ms)
+  Rendered devise/menu/_common_user_items.erb (0.2ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 17:45:44 +0100
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:44 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:44 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /jquery-ui.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin/base.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /active_admin.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:45:45 +0100
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+  Rendered devise/menu/_login_items.erb (0.7ms)
+  Rendered devise/menu/_registration_items.erb (1.8ms)
+  Rendered devise/menu/_admin_items.erb (0.8ms)
+  Rendered devise/menu/_common_user_items.erb (0.7ms)
+Completed 200 OK in 104ms (Views: 103.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /application.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /jquery-ui.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin/base.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /active_admin.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:48:35 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:49:58 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 4ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (6.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (24.0ms)
+  Rendered devise/menu/_login_items.erb (2.1ms)
+  Rendered devise/menu/_registration_items.erb (1.5ms)
+  Rendered devise/menu/_admin_items.erb (0.2ms)
+  Rendered devise/menu/_common_user_items.erb (0.2ms)
+Completed 200 OK in 102ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 17:49:58 +0100
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:58 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:58 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:58 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /active_admin/base.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /active_admin.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:49:59 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.7ms)
+  Rendered devise/menu/_login_items.erb (0.4ms)
+  Rendered devise/menu/_registration_items.erb (0.5ms)
+  Rendered devise/menu/_admin_items.erb (0.3ms)
+  Rendered devise/menu/_common_user_items.erb (0.5ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /jquery-ui.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin/base.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /active_admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:01 +0100
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.2ms)
+  Rendered devise/menu/_login_items.erb (1.6ms)
+  Rendered devise/menu/_registration_items.erb (1.8ms)
+  Rendered devise/menu/_admin_items.erb (0.8ms)
+  Rendered devise/menu/_common_user_items.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /application.css - 304 Not Modified (47ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /jquery-ui.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin/base.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin/application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /active_admin.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:51:43 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 18:21:35 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+  Rendered devise/menu/_login_items.erb (1.6ms)
+  Rendered devise/menu/_registration_items.erb (1.6ms)
+  Rendered devise/menu/_admin_items.erb (0.4ms)
+  Rendered devise/menu/_common_user_items.erb (0.2ms)
+Completed 200 OK in 113ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /qsort.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin/base.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /active_admin.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 18:21:36 +0100
+Served asset /intern.png - 304 Not Modified (7ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 18:29:28 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (64.9ms)
+  Rendered devise/menu/_login_items.erb (0.7ms)
+  Rendered devise/menu/_registration_items.erb (1.5ms)
+  Rendered devise/menu/_admin_items.erb (0.4ms)
+  Rendered devise/menu/_common_user_items.erb (0.4ms)
+Completed 200 OK in 707ms (Views: 706.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /application.css - 304 Not Modified (122ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /qsort.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin/application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin/base.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /active_admin.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 18:29:29 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.1ms)
+  Rendered devise/menu/_login_items.erb (1.8ms)
+  Rendered devise/menu/_registration_items.erb (2.2ms)
+  Rendered devise/menu/_admin_items.erb (0.7ms)
+  Rendered devise/menu/_common_user_items.erb (0.2ms)
+Completed 200 OK in 85ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /jquery-ui.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin/application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /active_admin/base.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 18:32:35 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 18:35:57 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.7ms)
+  Rendered devise/menu/_login_items.erb (1.6ms)
+  Rendered devise/menu/_registration_items.erb (1.3ms)
+  Rendered devise/menu/_admin_items.erb (0.7ms)
+  Rendered devise/menu/_common_user_items.erb (0.3ms)
+Completed 200 OK in 2004ms (Views: 2002.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 18:36:00 +0100
+Served asset /application.css - 304 Not Modified (3211ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin/application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin/base.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /active_admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 18:36:03 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-10-13 18:38:21 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 4ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uUlFVCf2sN7uvEzDVIUcaAaaM6ufMfVJpHTJY41Axn4=", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+  Rendered devise/menu/_login_items.erb (0.5ms)
+  Rendered devise/menu/_registration_items.erb (1.1ms)
+  Rendered devise/menu/_admin_items.erb (1.5ms)
+  Rendered devise/menu/_common_user_items.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /application.css - 304 Not Modified (68ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin/application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin/base.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 18:38:22 +0100
+Served asset /active_admin.js - 304 Not Modified (17ms)

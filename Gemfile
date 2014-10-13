@@ -22,6 +22,7 @@ group :assets do
   gem 'coffee-script-source', '~> 1.4.0'
   gem 'bootstrap-sass', '~> 3.2.0'
   gem 'autoprefixer-rails'
+  gem 'formtastic', '~> 3.0'
   # gem 'zurb-foundation'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
