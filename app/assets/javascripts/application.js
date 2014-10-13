@@ -12,5 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+
 //= require qsort.js
 //= require active_admin.js
+
+

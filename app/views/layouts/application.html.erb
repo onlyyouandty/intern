@@ -9,8 +9,8 @@
 
 	<head>
 		<title>Intern</title>
-		<%= stylesheet_link_tag "application" %>
-		<%= javascript_include_tag "application" %>
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 		<%= csrf_meta_tags %>
 
       <!-- # :head is defined in qsorts.html.erb (in the layouts folder) -->

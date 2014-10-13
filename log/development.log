@@ -4605,3 +4605,1004 @@ Processing by AboutController#index as HTML
   Rendered devise/menu/_admin_items.erb (0.1ms)
   Rendered devise/menu/_common_user_items.erb (0.7ms)
 Completed 200 OK in 104ms (Views: 102.4ms | ActiveRecord: 0.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-13 16:53:03 +0100
+Processing by StudentProfilesController#index as HTML
+Completed 401 Unauthorized in 38ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 16:53:04 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (18.1ms)
+  Rendered devise/menu/_login_items.erb (2.7ms)
+  Rendered devise/menu/_registration_items.erb (3.9ms)
+  Rendered devise/menu/_admin_items.erb (1.5ms)
+  Rendered devise/menu/_common_user_items.erb (2.1ms)
+Completed 200 OK in 995ms (Views: 969.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 16:53:05 +0100
+Served asset /active_admin/application.js - 304 Not Modified (45ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 16:58:33 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (95.5ms)
+Compiled foundation/foundation.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.alerts.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.clearing.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.cookie.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.dropdown.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.forms.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.joyride.js  (1ms)  (pid 20265)
+Compiled foundation/foundation.magellan.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.orbit.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.reveal.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.section.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.tooltips.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.topbar.js  (1ms)  (pid 20265)
+Compiled foundation/foundation.interchange.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.placeholder.js  (0ms)  (pid 20265)
+Compiled foundation/foundation.abide.js  (1ms)  (pid 20265)
+Compiled foundation/index.js  (195ms)  (pid 20265)
+Compiled application.js  (276ms)  (pid 20265)
+  Rendered devise/menu/_login_items.erb (1.6ms)
+  Rendered devise/menu/_registration_items.erb (1.3ms)
+  Rendered devise/menu/_admin_items.erb (0.9ms)
+  Rendered devise/menu/_common_user_items.erb (1.2ms)
+Completed 200 OK in 648ms (Views: 620.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 16:58:34 +0100
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:34 +0100
+Served asset /foundation/foundation.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:34 +0100
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:34 +0100
+Served asset /foundation/foundation.clearing.js - 200 OK (2ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:34 +0100
+Served asset /foundation/foundation.cookie.js - 200 OK (2ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:34 +0100
+Served asset /foundation/foundation.dropdown.js - 200 OK (12ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.alerts.js - 200 OK (10ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.forms.js - 200 OK (6ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.joyride.js - 200 OK (11ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.orbit.js - 200 OK (12ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.magellan.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.reveal.js - 200 OK (9ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.section.js - 200 OK (26ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.tooltips.js - 200 OK (22ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.topbar.js - 200 OK (7ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.interchange.js - 200 OK (3ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.placeholder.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/foundation.abide.js - 200 OK (7ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /foundation/index.js - 200 OK (117ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /qsort.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /jquery-ui.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin/application.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin/base.js - 304 Not Modified (188ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /application.js - 200 OK (66ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 16:58:35 +0100
+Served asset /intern.png - 304 Not Modified (21ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+  Rendered devise/menu/_login_items.erb (0.6ms)
+  Rendered devise/menu/_registration_items.erb (0.3ms)
+  Rendered devise/menu/_admin_items.erb (0.1ms)
+  Rendered devise/menu/_common_user_items.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /jquery-ui.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin/base.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /active_admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:00:25 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-13 17:00:33 +0100
+Processing by StudentProfilesController#index as HTML
+Completed 401 Unauthorized in 6ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:00:33 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (9.3ms)
+  Rendered devise/menu/_login_items.erb (0.5ms)
+  Rendered devise/menu/_registration_items.erb (0.3ms)
+  Rendered devise/menu/_admin_items.erb (0.1ms)
+  Rendered devise/menu/_common_user_items.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /application.css - 304 Not Modified (47ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /jquery-ui.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin/base.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /active_admin.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:00:34 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:04:37 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/f0578b273b106bd901464d8a68ca86d1283b66af/application.css.scssc: can't dump anonymous class #<Class:0x007f3b7df57480>
+
+Completed 500 Internal Server Error in 175ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load path: Sass::Rails::Importer(/home/taiwo/BEWD_Class/Rails/intern/app/assets/stylesheets/application.css.scss)
+  (in /home/taiwo/BEWD_Class/Rails/intern/app/assets/stylesheets/application.css.scss)):
+    9: 
+    10: 	<head>
+    11: 		<title>Intern</title>
+    12: 		<%= stylesheet_link_tag "application" %>
+    13: 		<%= javascript_include_tag "application" %>
+    14: 		<%= csrf_meta_tags %>
+    15: 
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2072578578643129482_69946719383920'
+
+
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:07:05 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/f0578b273b106bd901464d8a68ca86d1283b66af/application.css.scssc: can't dump anonymous class #<Class:0x007f3b7df57480>
+
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load path: Sass::Rails::Importer(/home/taiwo/BEWD_Class/Rails/intern/app/assets/stylesheets/application.css.scss)
+  (in /home/taiwo/BEWD_Class/Rails/intern/app/assets/stylesheets/application.css.scss)):
+    9: 
+    10: 	<head>
+    11: 		<title>Intern</title>
+    12: 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    13: 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    14: 		<%= csrf_meta_tags %>
+    15: 
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2072578578643129482_69946749173720'
+
+
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:07:08 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (5.8ms)
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/f0578b273b106bd901464d8a68ca86d1283b66af/application.css.scssc: can't dump anonymous class #<Class:0x007f3b7df57480>
+
+Completed 500 Internal Server Error in 100ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load path: Sass::Rails::Importer(/home/taiwo/BEWD_Class/Rails/intern/app/assets/stylesheets/application.css.scss)
+  (in /home/taiwo/BEWD_Class/Rails/intern/app/assets/stylesheets/application.css.scss)):
+    9: 
+    10: 	<head>
+    11: 		<title>Intern</title>
+    12: 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    13: 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    14: 		<%= csrf_meta_tags %>
+    15: 
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2072578578643129482_69946749173720'
+
+
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.7ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:22:52 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (78.8ms)
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/f0578b273b106bd901464d8a68ca86d1283b66af/application.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/11d262df7855b62349e2899d597335dc931c1d99/_bootstrap-sprockets.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/11d262df7855b62349e2899d597335dc931c1d99/_bootstrap.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_variables.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_mixins.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_hide-text.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_opacity.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_image.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_labels.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_reset-filter.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_resize.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_responsive-visibility.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_size.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_tab-focus.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_text-emphasis.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_text-overflow.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_vendor-prefixes.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_alerts.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_buttons.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_panels.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_pagination.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_list-group.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_nav-divider.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_forms.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_progress-bar.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_table-row.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_background-variant.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_border-radius.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_gradients.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_clearfix.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_center-block.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_nav-vertical-align.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_grid-framework.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/6a1c2a4dbbbaec4c0efc8b8247d3b55037c6e6e4/_grid.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_normalize.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_print.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_glyphicons.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_scaffolding.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_type.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_code.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_grid.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_tables.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_forms.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_buttons.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_component-animations.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_dropdowns.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_button-groups.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_input-groups.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_navs.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_navbar.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_pagination.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_pager.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_labels.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_badges.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_jumbotron.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_thumbnails.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_alerts.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_progress-bars.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_media.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_list-group.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_panels.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_responsive-embed.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_wells.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_close.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_modals.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_tooltip.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_popovers.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_carousel.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_utilities.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/1b7b0c62e23241fae83a8936b41998ad9c5d3bdb/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/f0578b273b106bd901464d8a68ca86d1283b66af/qsorts.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/40f4ddedd45037311f012ac09a7009527210718c/active_admin.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/d82eaa2fe67e099630f335e2c615b06a04162f59/_mixins.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_all.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_variables.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_reset.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_gradients.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_shadows.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_icons.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_rounded.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_buttons.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_sections.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_utilities.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/90558069d46ec8bf28c739bb3f9d8af10b84fa60/_typography.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/25ffdb5ddb94a4acd0f2ba782dce78c0e2641b3d/_bourbon.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/5a4780e0663d093cbe43e5835c3b992d898a5e15/_prefixer.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/5a4780e0663d093cbe43e5835c3b992d898a5e15/_px-to-em.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/5a4780e0663d093cbe43e5835c3b992d898a5e15/_asset-pipeline.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/c17aa651b7d8a0338ba48be9e15fec98d03fc1e0/_gradient-positions-parser.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/c17aa651b7d8a0338ba48be9e15fec98d03fc1e0/_linear-positions-parser.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/c17aa651b7d8a0338ba48be9e15fec98d03fc1e0/_radial-arg-parser.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/c17aa651b7d8a0338ba48be9e15fec98d03fc1e0/_radial-positions-parser.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/c17aa651b7d8a0338ba48be9e15fec98d03fc1e0/_render-gradients.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/c17aa651b7d8a0338ba48be9e15fec98d03fc1e0/_shape-size-stripper.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_color-lightness.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_flex-grid.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_golden-ratio.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_grid-width.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_linear-gradient.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_modular-scale.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_px-to-em.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_px-to-rem.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_radial-gradient.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_strip-units.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_tint-shade.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_transition-property-name.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/16201cafc47493c27332b951dd86629cac328f2e/_unpack.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_animation.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_appearance.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_backface-visibility.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_background.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_background-image.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_border-image.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_border-radius.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_box-sizing.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_calc.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_columns.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_filter.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_flex-box.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_font-face.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_font-feature-settings.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_hyphens.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_hidpi-media-query.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_image-rendering.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_inline-block.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_keyframes.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_linear-gradient.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_perspective.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_radial-gradient.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_transform.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_transition.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_user-select.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/941023d6ec58591bba676251b9df35b772595e84/_placeholder.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_button.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_clearfix.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_directional-values.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_ellipsis.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_font-family.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_hide-text.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_html5-input-types.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_position.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_prefixer.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_retina-image.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_size.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_timing-functions.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_triangle.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/028945dd849fcaa416b6902953164bd32ed9ea97/_word-wrap.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/25ffdb5ddb94a4acd0f2ba782dce78c0e2641b3d/_bourbon-deprecated-upcoming.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/d82eaa2fe67e099630f335e2c615b06a04162f59/_base.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/d82eaa2fe67e099630f335e2c615b06a04162f59/_typography.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/d82eaa2fe67e099630f335e2c615b06a04162f59/_header.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/d82eaa2fe67e099630f335e2c615b06a04162f59/_forms.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_comments.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_flash_messages.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_date_picker.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_popovers.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_tables.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_batch_actions.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_blank_slates.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_dropdown_menu.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_buttons.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_grid.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_links.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_pagination.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_panels.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_columns.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_scopes.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_status_tags.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_table_tools.css.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/4a36435620ac3fa046d3638ff1030ab59a86d668/_index_list.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/fce88e9a86550953648be301a674215839e4262d/_logged_out.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/a73578ef67741d306bca1f7b38622caaf1d4c88c/_footer.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/a73578ef67741d306bca1f7b38622caaf1d4c88c/_main_structure.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Warning. Error encountered while saving cache /home/taiwo/BEWD_Class/Rails/intern/tmp/cache/sass/a73578ef67741d306bca1f7b38622caaf1d4c88c/_title_bar.scssc: can't dump anonymous class #<Class:0x007fa80b1acdd0>
+
+Compiled application.css  (11927ms)  (pid 21493)
+Completed 500 Internal Server Error in 12315ms
+
+ActionView::Template::Error (couldn't find file 'foundation'
+  (in /home/taiwo/BEWD_Class/Rails/intern/app/assets/javascripts/application.js:15)):
+    10: 	<head>
+    11: 		<title>Intern</title>
+    12: 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    13: 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    14: 		<%= csrf_meta_tags %>
+    15: 
+    16:       <!-- # :head is defined in qsorts.html.erb (in the layouts folder) -->
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3873334820682074715_70179863004080'
+
+
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-13 17:28:29 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (15.0ms)
+Compiled application.js  (74ms)  (pid 21493)
+  Rendered devise/menu/_login_items.erb (2.8ms)
+  Rendered devise/menu/_registration_items.erb (3.9ms)
+  Rendered devise/menu/_admin_items.erb (2.6ms)
+  Rendered devise/menu/_common_user_items.erb (2.4ms)
+Completed 200 OK in 353ms (Views: 344.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /jquery.js - 304 Not Modified (43ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /application.css - 200 OK (130ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /qsort.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /jquery-ui.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /active_admin/application.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:30 +0100
+Served asset /active_admin/base.js - 304 Not Modified (69ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:31 +0100
+Served asset /active_admin.js - 304 Not Modified (82ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 17:28:31 +0100
+Served asset /application.js - 200 OK (84ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 17:28:31 +0100
+Served asset /intern.png - 304 Not Modified (44ms)
