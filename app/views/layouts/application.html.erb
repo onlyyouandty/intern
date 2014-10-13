@@ -7,22 +7,21 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<div class = "head">
-		<%= image_tag 'intern.png', :class => 'header' %>
-		<ul id ="nav">
-			<%= render 'devise/menu/login_items' %>
-            <%= render 'devise/menu/registration_items' %>
-            <%= render 'devise/menu/admin_items' %>
-            <%= render 'devise/menu/common_user_items'  %>
-        </ul>
-    </div>
-	<div class = "body">
+	<%= render 'layouts/header' %>
+	<div class="container">
+		<p class="notice"><%= notice %></p>
+		<p class="alert"><%= alert %></p>
+
 		<%= yield %>
+		<%= render 'layouts/footer'%>
 	</div>
-	<div class = "foot">
+	<!-- <div class = "body">
+		<%= yield %>
+	</div> -->
+	<!-- <div class = "foot">
 		<p>
 			<%= link_to "About", about_url %>
 		</p>
-	</div>
+	</div> -->
 </body>
 </html>
