@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  company_profile_id: 1
+  school_text: MyString
+  year_text: MyString
+  skill_text: MyString
+  culture: MyString
+
+two:
+  company_profile_id: 1
+  school_text: MyString
+  year_text: MyString
+  skill_text: MyString
+  culture: MyString

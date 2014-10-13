@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Job:</b>
+  <%= @job_posting.job_id %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @job_posting.position %>
+</p>
+
+<p>
+  <b>Job description:</b>
+  <%= @job_posting.job_description %>
+</p>
+
+<p>
+  <b>Job start:</b>
+  <%= @job_posting.job_start %>
+</p>
+
+<p>
+  <b>Job end:</b>
+  <%= @job_posting.job_end %>
+</p>
+
+<p>
+  <b>Posted on:</b>
+  <%= @job_posting.posted_on %>
+</p>
+
+<p>
+  <b>Position time:</b>
+  <%= @job_posting.position_time %>
+</p>
+
+<p>
+  <b>Job paid:</b>
+  <%= @job_posting.job_paid %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @job_posting.user_id %>
+</p>
+
+<p>
+  <b>Job requirements:</b>
+  <%= @job_posting.job_requirements %>
+</p>
+
+<p>
+  <b>Company profile:</b>
+  <%= @job_posting.company_profile_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_job_posting_url(@job_posting) %> |
+<%= link_to 'Back', job_postings_url %>

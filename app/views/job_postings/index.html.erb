@@ -1,0 +1,38 @@
+<h1>Listing Job Postings</h1>
+
+<table>
+  <tr>
+    <th>Company Profile</th>
+    <th>Company Culture Grouping</th>
+    <th>Position</th>
+    <th>Job description</th>
+    <th>Job start</th>
+    <th>Job end</th>
+    <th>Posted on</th>
+    <th>Position time</th>
+    <th>Job paid</th>
+    <th>Job requirements</th>
+
+  </tr>
+
+  <% @job_postings.each do |job_posting| %>
+      <tr>
+        <% com_prof = CompanyProfile.find(job_posting.company_profile_id) %>
+        <td><%= link_to com_prof.company_name, company_profile_url(com_prof) %></td>
+        <td><%= com_prof.qsort %></td>
+        <td><%= job_posting.position %></td>
+        <td><%= job_posting.job_description %></td>
+        <td><%= job_posting.job_start %></td>
+        <td><%= job_posting.job_end %></td>
+        <td><%= job_posting.posted_on %></td>
+        <td><%= job_posting.position_time %></td>
+        <td><%= job_posting.job_paid %></td>
+        <td><%= job_posting.job_requirements %></td>
+
+      </tr>
+  <% end %>
+</table>
+
+
+<br />
+

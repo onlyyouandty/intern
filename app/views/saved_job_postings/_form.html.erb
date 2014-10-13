@@ -1,0 +1,34 @@
+<%= form_for(@saved_job_posting) do |f| %>
+  <% if @saved_job_posting.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@saved_job_posting.errors.count, "error") %> prohibited this saved_job_posting from being saved:</h2>
+
+      <ul>
+      <% @saved_job_posting.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+    <p>
+      <%= f.label :position %><br/>
+      <%= f.text_field :position_text%>
+    </p>
+    <p>
+      <%= f.label :description %><br/>
+      <%= f.text_field :description_text %>
+<%# text_field_tag :year_text %>
+    </p>
+    <p>
+      <%= f.label :paid %><br/>
+      <%= f.select :paid_text, [['', ''], ['Paid', 'Paid'], ['Unpaid', 'Unpaid']] %>
+    </p>
+    <p>
+      <%= f.label :culture %><br/>
+      <%= f.select :culture, options_for_select(@cultures) %>
+    </p>
+
+  <div class="actions">
+    <%= f.submit "Update Saved Search" %>
+  </div>
+<% end %>

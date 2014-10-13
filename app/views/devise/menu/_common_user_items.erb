@@ -1,0 +1,33 @@
+<% if user_signed_in? %>
+  <% current_user_id = current_user.id.to_s() %>
+  <%  if current_user.user_type == "student" %>
+    <li>
+      <%= link_to('Profile', student_profile_url(current_user_id)) %>
+    </li>
+    <li>
+
+      <%= link_to('Edit Profile', edit_student_profile_url(current_user_id)) %>
+    </li>
+    <li>
+       <%= link_to('Browse Companies', company_profiles_url) %>
+    </li>
+    <li>
+      <%= link_to('Browse Jobs', job_postings_url) %>
+    </li>
+    <li><%= link_to('Search for Jobs', search_job_postings_url) %></li>
+  <% elsif current_user.user_type == "company" %>
+     <li>
+       <%= link_to('Profile', company_profile_url(current_user_id)) %>
+     </li>
+     <li>
+       <%= link_to('Edit Profile', edit_company_profile_url(current_user_id)) %>
+     </li>
+     <li>
+       <%= link_to('Browse Candidates', student_profiles_url) %>
+     </li>
+        <li><%= link_to('Search for Candidates', search_student_profiles_url) %></li>
+  <% else %>
+      <!-- #something to do here for admin -->
+  <% end %>
+
+<% end %>

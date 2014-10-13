@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  position_text: MyString
+  description_text: MyString
+  paid_text: MyString
+  requirements_text: MyString
+  culture: MyString
+  student_profile_id: 1
+
+two:
+  position_text: MyString
+  description_text: MyString
+  paid_text: MyString
+  requirements_text: MyString
+  culture: MyString
+  student_profile_id: 1

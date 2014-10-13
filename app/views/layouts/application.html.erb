@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<!-- 
+		LAYOUT PAGE
+		CREATED BY: Matthew McDonald
+		DATE CREATED: January 22, 2013
+		VERSION NUMBER: 1.0
+	-->
+
+	<head>
+		<title>Intern</title>
+		<%= stylesheet_link_tag "application" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+
+      <!-- # :head is defined in qsorts.html.erb (in the layouts folder) -->
+      <%= yield :head %>
+	</head>
+
+<body>
+
+	<!-- HEADER -->
+		<div class = "head">
+		
+			<!-- LOGO -->
+				<%= image_tag 'intern.png', :class => 'header' %> 
+			<!-- END LOGO -->
+
+			<!-- NAVIGATION -->
+
+          <ul id ="nav">
+
+            <%= render 'devise/menu/login_items' %>
+            <%= render 'devise/menu/registration_items' %>
+            <%= render 'devise/menu/admin_items' %>
+            <%= render 'devise/menu/common_user_items'  %>
+
+          </ul>
+				
+			<!-- END NAVIGATION -->
+			
+		</div>
+	<!-- END HEADER -->
+
+	<!-- BODY -->
+		<div class = "body">
+			<%= yield %> <!-- BODY IS RENDERED HERE -->
+		</div>
+	<!-- END BODY -->
+
+	<!-- FOOTER -->
+		<div class = "foot"> <!-- FOOTER -->
+			<p>
+              <%= link_to "About", about_url %>
+			</p>
+		</div>
+	<!-- END FOOTER -->
+
+</body>
+</html>

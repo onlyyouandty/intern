@@ -1,0 +1,3 @@
+== InternsAhoy
+
+Site for CSC-394.  Check out rails.rdoc for rails info.

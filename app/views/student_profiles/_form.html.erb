@@ -1,0 +1,58 @@
+<p id="notice"><%= notice %></p>
+<%= form_for(@student_profile) do |f| %>
+    <% if @student_profile.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@student_profile.errors.count, "error") %> prohibited this student profile from being saved:</h2>
+
+          <ul>
+            <% @student_profile.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :first_name %><br />
+      <%= f.text_field :first_name %>
+    </div>
+    <div class="field">
+      <%= f.label :last_name %><br />
+      <%= f.text_field :last_name %>
+    </div>
+    <div class="field">
+      <%= f.label :school %><br />
+      <%= f.text_field :school %>
+    </div>
+    <div class="field">
+      <%= f.label :major %><br />
+      <%= f.text_field :major %>
+    </div>
+    <div class="field">
+      <%= f.label :resume %><br />
+      <%= f.text_field :resume, :readonly => true %>
+      <%= f.file_field :resume %>
+      <br/>
+    </div>
+    <div class="field">
+      <%= f.label :expected_graduation %><br />
+      <%= f.text_field :expected_graduation %>
+    </div>
+
+    <div class="field">
+      <%= f.label :school_year %><br />
+      <%# f.text_field :school_year %>
+      <%= f.select :school_year, [['Freshman', 'Freshman'], ['Sophomore', 'Sophomore'], ['Junior', 'Junior'], ['Senior', 'Senior'], ['N/A', 'N/A']] %>
+    </div>
+    <div class="field">
+      <%= f.label :last_completed_degree %><br />
+      <%= f.text_field :last_completed_degree %>
+    </div>
+    <div class="field">
+      <%= f.label :zip %><br />
+      <%= f.text_field :zip %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

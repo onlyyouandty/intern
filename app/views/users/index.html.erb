@@ -1,0 +1,31 @@
+<h1>Listing Users</h1>
+
+<table>
+  <tr>
+    <th>Email</th>
+    <th>User Type</th>
+    <th>Sign in Count</th>
+    <th>Current Sign in At</th>
+    <th>Last Sign in At</th>
+    <th>Current Sign in Ip</th>
+    <th>Last Sign in Ip</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @users.each do |user| %>
+      <tr>
+        <td><%= user.email %></td>
+        <td><%= user.user_type %></td>
+        <td><%= user.sign_in_count %></td>
+        <td><%= user.current_sign_in_at %></td>
+        <td><%= user.last_sign_in_at %></td>
+        <td><%= user.current_sign_in_ip %></td>
+        <td><%= user.last_sign_in_ip %></td>
+        <td><%= link_to 'Show', user %></td>
+        <td><%= link_to 'Edit', edit_user_registration_url(user) %></td>
+      </tr>
+  <% end %>
+</table>
+
+

@@ -1,0 +1,41 @@
+﻿
+
+<%# code for adding error notifications to the login page %>
+<% flash.each do |name, msg| %>
+    <%= content_tag :div, msg, :id => "flash_#{name}" %>
+<% end %>
+
+<div style="overflow: auto">
+<div style="float:left; margin-right:25px; height:300px;">
+
+<h2>Sign in</h2>
+
+<%= form_for(resource, :as => resource_name, :url => session_url(resource_name)) do |f| %>
+  <div><%= f.label :email %><br />
+  <%= f.email_field :email, :autofocus => true %></div>
+
+  <div><%= f.label :password %><br />
+  <%= f.password_field :password %></div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+  <% end -%>
+
+  <div><%= f.submit "Sign in" %></div>
+<% end %>
+
+</div>
+<div>
+
+<h2>Welcome to Intern</h2>
+
+<p>Intern is a site that aims to provide students looking to expand their experiences with an offering of approved internship positions in varying companies, consisting of large corporations as well as smaller business entities.  Similarly, the site provides these companies with a connection to students looking for work. </p>
+
+<p>Intern offers its users the ability to find internships in professional environments that would best fit them on a personal level.  This focus on accurately matching prospective interns and employers using our attitudinal survey attempts to overcome the faults inherent in existing internship-matching solutions that do not take into account how an intern candidate’s personality would be well-suited for a company’s culture. </p>
+
+<p>To register as a student or company, follow the register link above and fill out the appropriate forms.</p>
+
+<p>To login, enter the forms above.</p>
+
+</div>
+</div>

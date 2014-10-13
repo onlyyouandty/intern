@@ -1,0 +1,56 @@
+<p id="notice"><%= notice %></p>
+<%= form_for(@company_profile) do |f| %>
+  <% if @company_profile.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@company_profile.errors.count, "error") %> prohibited this company_profile from being saved:</h2>
+
+      <ul>
+      <% @company_profile.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :company_name %><br />
+    <%= f.text_field :company_name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :company_type %><br />
+    <%= f.text_field :company_type %>
+  </div>
+  <div class="field">
+    <%= f.label :number_of_employees %><br />
+    <%= f.number_field :number_of_employees %>
+  </div>
+  <div class="field">
+    <%= f.label :website %><br />
+    <% if @company_profile.website == nil || @company_profile.website.start_with?("http://") == false %>
+        <%= f.text_field :website, :value => "http://#{@company_profile.website}" %>
+    <% else %>
+        <%=  f.text_field :website %>
+    <% end %>
+  </div>
+    <div class="field">
+      <%= f.label :location %><br />
+      <%= f.text_field :location, :placeholder => "City, State" %>
+    </div>
+    <div class="field">
+      <%= f.label :tax_code %><br />
+      <%= f.text_field :tax_code %>
+    </div>
+    <% if @get_profile_type == "admin" %>
+        <div class="field">
+          <%= f.label :verified %><br />
+          <%= f.check_box_tag :verified %>
+        </div>
+    <% end %>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

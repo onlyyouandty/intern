@@ -1,0 +1,185 @@
+<p id="notice"><%= notice %></p>
+
+<h3>Candidate Profile</h3>
+<table>
+  <tr>
+    <th class="side">First name:</th>
+    <td><%= @student_profile.first_name %></td>
+  </tr>
+  <tr>
+    <th class="side">Last name:</th>
+    <td><%= @student_profile.last_name %></td>
+  </tr>
+  <tr>
+    <th class="side">School:</th>
+    <td><%= @student_profile.school %></td>
+  </tr>
+  <tr>
+    <th class="side">Major:</th>
+    <td><%= @student_profile.major %></td>
+  </tr>
+  <% if !@student_profile.resume.nil? && @student_profile.resume.to_s != "" %>
+  <tr>
+    <th class="side">Resume:</th>
+    <td><%= link_to 'View', "#{root_url[0...-1]}#{@student_profile.resume}"  %></td>
+  </tr>
+  <% end %>
+  <tr>
+    <th class="side">Email:</th>
+    <td><%= mail_to @student_profile.email %></td>
+  </tr>
+  <tr>
+    <th class="side">Expected graduation:</th>
+    <td><%= @student_profile.expected_graduation %></td>
+  </tr>
+  <tr>
+    <th class="side">School year:</th>
+    <td><%= @student_profile.school_year %></td>
+  </tr>
+  <tr>
+    <th class="side">Last completed degree:</th>
+    <td><%= @student_profile.last_completed_degree %></td>
+  </tr>
+  <tr>
+    <th class="side">Zip:</th>
+    <td><%= @student_profile.zip %></td>
+  </tr>
+  <% if !@student_profile.qsort.nil? && @student_profile.qsort != "" %>
+  <tr>
+    <th class="side">Culture Grouping:</th>
+    <td><%= @student_profile.qsort %></td>
+  </tr>
+  <% end %>
+</table>
+
+<br/>
+<br/>
+<br/>
+
+<h3>Work Experiences</h3>
+
+
+<% if !@student_profile.stu_work_experiences.empty? %>
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Position</th>
+        <th>Start date</th>
+        <th>End date</th>
+        <th>Job Description</th>
+        <% if @user.id == @student_profile.id %>
+            <th></th>
+            <th></th>
+        <% end %>
+      </tr>
+
+      <% @work_histories.each do |work_history| %>
+          <tr>
+            <td><%= work_history.company %></td>
+            <td><%= work_history.position %></td>
+            <td><%= work_history.start_date %></td>
+            <td><%= work_history.end_date %></td>
+            <td><%= work_history.description %></td>
+            <% if @user.id == @student_profile.id %>
+                <td><%= link_to 'Edit', edit_stu_work_experience_url(work_history) %></td>
+                <td><%= link_to 'Destroy',  work_history, :method => :delete, :confirm => 'Are you sure?' %></td>
+            <% end %>
+          </tr>
+      <% end %>
+    </table>
+<% else %>
+    <p>No work experiences have been added yet!</p>
+<% end %>
+
+<% if @user.id == @student_profile.id %>
+    <%= link_to 'Add Work Experience', new_stu_work_experience_url %>
+<% end %>
+
+<br/>
+<br/>
+<br/>
+
+<div style="overflow: auto">
+
+  <div style="display:inline-block; float:left; width:30%;">
+<h3>Skills</h3>
+
+<% if !@student_profile.skills.empty? %>
+
+    <table>
+      <tr>
+        <th>Description</th>
+        <% if @user.id == @student_profile.id %>
+            <th></th>
+            <th></th>
+        <% end %>
+      </tr>
+
+      <% @skills.each do |skill| %>
+          <tr>
+            <td><%= skill.description %></td>
+            <% if @user.id == @student_profile.id %>
+                <td><%= link_to 'Edit', edit_skill_url(skill) %></td>
+                <td><%= link_to 'Destroy', skill, :method=>:delete, :confirm=>'Are you sure?' %></td>
+            <% end %>
+          </tr>
+      <% end %>
+    </table>
+<% else %>
+    <p>No skills have been added yet!</p>
+<% end %>
+
+<br/>
+<% if @user.id == @student_profile.id %>
+    <%= link_to 'Add A Skill', new_skill_url %>
+<% end %>
+  </div>
+
+  <div style="display:inline-block; width:65%; margin-left:25px;">
+<h3>References</h3>
+
+<% if !@student_profile.stu_references.empty? %>
+
+    <table>
+      <tr>
+        <th>Name</th>
+		<th>Relationship</th>
+		<th>Phone</th>
+        <th>Email</th>
+        <% if @user.id == @student_profile.id %>
+            <th></th>
+            <th></th>
+        <% end %>
+      </tr>
+
+      <% @references.each do |reference| %>
+          <tr>
+            <td><%= reference.name %></td>
+			<td><%= reference.relationship %></td>
+			<td><%= reference.phone %></td>
+            <td><%= mail_to reference.email %></td>
+            <% if @user.id == @student_profile.id %>
+                <td><%= link_to 'Edit', edit_stu_reference_url(reference) %></td>
+                <td><%= link_to 'Destroy', reference, :method=>:delete, :confirm=>'Are you sure?' %></td>
+            <% end %>
+          </tr>
+      <% end %>
+    </table>
+<% else %>
+    <p>No references have been added yet!</p>
+<% end %>
+<br />
+<% if @user.id == @student_profile.id %>
+        <%= link_to 'Add A Reference', new_stu_reference_url %>
+<% end %>
+</div>
+  </div>
+<% if @user.id == @student_profile.id %>
+
+    <br/>
+    <br/>
+    <br/>
+    <h3>Attitudinal Survey</h3>
+    <p>The attitudinal survey is used to decide your culture grouping, which you can use to decide which companies you will fit in best.</p>
+    <%= link_to 'Take Attitudinal Survey', qsorts_url %>
+<% end %>

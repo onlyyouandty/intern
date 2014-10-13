@@ -1,0 +1,34 @@
+<h1>Listing Company Profiles</h1>
+
+<table>
+  <tr>
+    <th>Company name</th>
+    <th>Description</th>
+    <th>Culture Grouping</th>
+    <th>Company type</th>
+    <th>Number of employees</th>
+    <th>Location</th>
+    <th>Email</th>
+    <th>Website</th>
+
+
+  </tr>
+
+<% @company_profiles.each do |company_profile| %>
+  <tr>
+    <td><%= link_to company_profile.company_name, company_profile %></td>
+    <td><%= company_profile.description %></td>
+    <td><%= company_profile.qsort %></td>
+    <td><%= company_profile.company_type %></td>
+    <td><%= company_profile.number_of_employees %></td>
+    <td><%= company_profile.location %></td>
+    <td><%= mail_to company_profile.email %></td>
+    <td><%= link_to company_profile.website, url_for(company_profile.website), :target => '_blank' %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+

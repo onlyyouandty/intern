@@ -1,0 +1,36 @@
+<h1>Listing Candidate Profiles</h1>
+
+
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Culture Grouping</th>
+    <th>School</th>
+    <th>Email</th>
+    <th>Expected graduation</th>
+    <th>School year</th>
+    <th>Last completed degree</th>
+    <th>Zip</th>
+    <th>Profile</th>
+
+  </tr>
+
+  <% @student_profiles.each do |student_profile| %>
+      <tr>
+        <td><%= student_profile.first_name %></td>
+        <td><%= student_profile.last_name %></td>
+        <td><%= student_profile.qsort %></td>
+        <td><%= student_profile.school %></td>
+        <td><%= mail_to student_profile.email %></td>
+        <td><%= student_profile.expected_graduation %></td>
+        <td><%= student_profile.school_year %></td>
+        <td><%= student_profile.last_completed_degree %></td>
+        <td><%= student_profile.zip %></td>
+        <td><%= link_to 'Show', student_profile %></td>
+      </tr>
+  <% end %>
+</table>
+
+<br />
+
