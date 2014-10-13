@@ -10088,3 +10088,87 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 16:00:09 +0100
 Served asset /intern.png - 304 Not Modified (0ms)
+
+
+Started GET "/company_profiles/4" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Processing by CompanyProfilesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mStudentProfile Load (0.1ms)[0m  [1mSELECT "student_profiles".* FROM "student_profiles" WHERE "student_profiles"."user_id" = '3' LIMIT 1[0m
+  [1m[35mStudentProfile Exists (0.1ms)[0m  SELECT 1 AS one FROM "student_profiles" WHERE "student_profiles"."id" = 3 LIMIT 1
+  [1m[36mCompanyProfile Load (0.1ms)[0m  [1mSELECT "company_profiles".* FROM "company_profiles" WHERE "company_profiles"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "job_postings" WHERE "job_postings"."company_profile_id" = 4
+  Rendered company_profiles/show.html.erb within layouts/application (0.7ms)
+  Rendered devise/menu/_login_items.erb (0.3ms)
+  Rendered devise/menu/_registration_items.erb (0.1ms)
+  Rendered devise/menu/_admin_items.erb (0.0ms)
+  Rendered devise/menu/_common_user_items.erb (0.7ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /qsort.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /active_admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/intern.png" for 127.0.0.1 at 2014-10-13 16:13:22 +0100
+Served asset /intern.png - 304 Not Modified (0ms)
