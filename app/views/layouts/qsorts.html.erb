@@ -1,0 +1,30 @@
+<% content_for :head do %>
+    <%= stylesheet_link_tag 'qsorts', "http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css", :media => "all" %>
+    <%= javascript_include_tag 'qsort', "http://code.jquery.com/jquery-1.8.3.js", "http://code.jquery.com/ui/1.10.0/jquery-ui.js"%>
+    <%= javascript_tag do %>
+    $(document).ready(function(){
+    $('#qsorts').sortable({
+    axis: 'y',
+    dropOnEmpty: false,
+    handle: '.handle',
+    cursor: 'crosshair',
+    items: 'li',
+    opacity: 0.4,
+    scroll: true,
+    update: function(){
+    $.ajax({
+    type: 'post',
+    beforeSend: function(xhr) {xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))},
+    data: $('#qsorts').sortable('serialize'),
+    dataType: 'script',
+    complete: function(request){
+    $('#qsorts').effect('highlight');
+    },
+    url: '<%= root_path %>qsorts/sort'})
+    }
+    });
+    });
+    <% end %>
+
+<% end %>
+<%= render :file => 'layouts/application' %>

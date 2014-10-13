@@ -1,0 +1,16 @@
+<h1>Attitudinal Survey</h1>
+
+    <p>Please sort the attributes from most like you to least like you.  Hit "Back" when you are through.</p>
+
+
+    <ul id="qsorts"> <% @qsorts.each do |qsort| %>
+        <li class="ui-state-default" id="qsort_<%= qsort.id %>"><span class="handle"><%= qsort.name %></span></li>
+    <% end %></ul>
+
+
+
+
+<br />
+
+<%# link_to 'New Qsort', new_qsort_url %>
+<%= link_to 'Back', @user %>

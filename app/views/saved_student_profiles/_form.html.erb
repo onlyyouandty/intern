@@ -1,0 +1,34 @@
+<%= form_for(@saved_student_profile) do |f| %>
+  <% if @saved_student_profile.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@saved_student_profile.errors.count, "error") %> prohibited this saved_student_profile from being saved:</h2>
+
+      <ul>
+      <% @saved_student_profile.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <p>
+      <%= f.label :school %><br/>
+      <%= f.text_field :school_text %>
+    </p>
+    <p>
+      <%= f.label :year %><br/>
+      <%= f.select :year_text, [['', ''], ['Freshman', 'Freshman'], ['Sophomore', 'Sophomore'], ['Junior', 'Junior'], ['Senior', 'Senior']] %>
+    </p>
+    <p>
+      <%= f.label :skill %><br/>
+      <%= f.text_field :skill_text %>
+    </p>
+    <p>
+      <%= f.label :culture %><br/>
+      <%= f.select :culture, options_for_select(@cultures) %>
+    </p>
+
+  <div class="actions">
+    <%= f.submit "Update Saved Search" %>
+  </div>
+<% end %>

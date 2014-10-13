@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Email:</b>
+  <%= @user.email %>
+</p>
+
+<p>
+  <b>User Type:</b>
+  <%= @user.user_type %>
+</p>
+
+<p>
+  <b>Sign in Count:</b>
+  <%= @user.sign_in_count %>
+</p>
+
+<p>
+  <b>Current Sign in At:</b>
+  <%= @user.current_sign_in_at %>
+</p>
+
+<p>
+  <b>Last Sign in At:</b>
+  <%= @user.last_sign_in_at %>
+</p>
+
+<p>
+  <b>Current Sign in Ip:</b>
+  <%= @user.current_sign_in_ip %>
+</p>
+
+<p>
+  <b>Last Sign in Ip:</b>
+  <%= @user.last_sign_in_ip %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_registration_url(@user) %> |
+<%= link_to 'Back', users_url %>

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: MyString
+  company_name: MyString
+  description: MyText
+  qsort: MyString
+  company_type: MyString
+  number_of_employees: 1
+  website: MyString
+
+two:
+  user_id: MyString
+  company_name: MyString
+  description: MyText
+  qsort: MyString
+  company_type: MyString
+  number_of_employees: 1
+  website: MyString

@@ -1,0 +1,99 @@
+<p id="notice"><%= notice %></p>
+
+<h3>Company Profile</h3>
+<% if @company_profile.verified != true %>
+    <p><b>This company's Tax Code is waiting on approval from an administrator.</b></p>
+<% end %>
+<table>
+  <tr>
+    <th class="side">Company Name:</th>
+    <td><%= @company_profile.company_name %></td>
+  </tr>
+  <tr>
+    <th class="side">Description:</th>
+    <td><%= @company_profile.description %></td>
+  </tr>
+  <tr>
+    <th class="side">Company Type:</th>
+    <td><%= @company_profile.company_type %></td>
+  </tr>
+  <tr>
+    <th class="side">Number of Employees:</th>
+    <td><%= @company_profile.number_of_employees %></td>
+  </tr>
+  <tr>
+    <th class="side">Email:</th>
+    <td><%= mail_to @company_profile.email %></td>
+  </tr>
+  <tr>
+    <th class="side">City/State:</th>
+    <td><%= @company_profile.location %></td>
+  </tr>
+  <tr>
+    <th class="side">Website:</th>
+    <td><%= link_to @company_profile.website, url_for(@company_profile.website), :target => '_blank' %></td>
+  </tr>
+  <% if !@company_profile.qsort.nil? && @company_profile.qsort != "" %>
+  <tr>
+    <th class="side">Culture Grouping:</th>
+    <td><%= @company_profile.qsort %></td>
+  </tr>
+  <% end %>
+</table>
+
+<br/>
+<br/>
+<br/>
+
+<h3>Job Postings</h3>
+<% if !@company_profile.job_postings.empty? %>
+    <table>
+      <tr>
+
+        <th>Position</th>
+        <th>Description</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Posted Date</th>
+        <th>Time</th>
+        <th>Paid/UnPaid</th>
+        <th>Requirements</th>
+        <% if @user.id == @company_profile.id %>
+            <th></th>
+            <th></th>
+        <% end %>
+      </tr>
+
+      <% @jobs.each do |job| %>
+          <tr>
+
+            <td><%= job.position %></td>
+            <td><%= job.job_description %></td>
+            <td><%= job.job_start %></td>
+            <td><%= job.job_end %></td>
+            <td><%= job.posted_on %></td>
+            <td><%= job.position_time %></td>
+            <td><%= job.job_paid %></td>
+            <td><%= job.job_requirements%></td>
+            <% if @user.id == @company_profile.id %>
+                <td><%= link_to 'Edit', edit_job_posting_url(job) %></td>
+                <td><%= link_to 'Destroy', job, :method=>:delete, :confirm=>'Are you sure?' %></td>
+            <% end %>
+          </tr>
+      <% end %>
+    </table>
+<% else %>
+    <p>No job postings have been added yet!</p>
+<% end %>
+
+<br/>
+
+<% if @user.id == @company_profile.id %>
+    <%= link_to 'New Job Posting', new_job_posting_url %>
+    <br/>
+    <br/>
+    <br/>
+    <h3>Attitudinal Survey</h3>
+    <p>This survey decides your company's culture grouping, which can then be used to narrow down potential employees to those which will be most productive for your office environment.</p>
+    <%= link_to 'Take Attitudinal Survey', qsorts_url %>
+<% end %>
