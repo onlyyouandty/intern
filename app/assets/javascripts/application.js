@@ -12,8 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-
+//= require turbolinks
 //= require qsort.js
 //= require active_admin.js
+//= require bootstrap
+
 
 

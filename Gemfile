@@ -23,6 +23,7 @@ group :assets do
   gem 'bootstrap-sass', '~> 3.2.0'
   gem 'autoprefixer-rails'
   gem 'formtastic', '~> 3.0'
+  gem 'turbolinks'
   # gem 'zurb-foundation'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
