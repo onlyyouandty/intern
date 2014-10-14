@@ -16,7 +16,7 @@
 //= require turbolinks
 //= require qsort.js
 //= require active_admin.js
-
+$(document).foundation();
 
 
 
