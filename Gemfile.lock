@@ -143,6 +143,7 @@ GEM
       json (~> 1.4)
     responders (1.1.1)
       railties (>= 3.2, < 4.2)
+    rmagick (2.13.3)
     sass (3.4.5)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -189,6 +190,7 @@ DEPENDENCIES
   rails (= 3.2.12)
   rails_12factor
   railties
+  rmagick
   sass-rails (~> 3.2.3)
   sqlite3
   turbolinks

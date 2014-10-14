@@ -20,8 +20,9 @@ gem 'meta_search', '>= 1.1.0.pre'
 #For authentication
 gem 'devise' 
 
-#For uploading files
-gem 'carrierwave' 
+#For uploading files and images
+gem 'carrierwave'
+gem 'rmagick' 
 
 #To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0' 

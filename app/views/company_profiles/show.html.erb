@@ -6,6 +6,7 @@
 <% end %>
 <table>
   <tr>
+    <%= image_tag @company_profile.image_url(:thumb).to_s %>
     <th class="side">Company Name:</th>
     <td><%= @company_profile.company_name %></td>
   </tr>
