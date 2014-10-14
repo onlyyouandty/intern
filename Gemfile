@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
+<<<<<<< HEAD
 ruby "2.1.2"
+=======
+ruby "2.1.3"
+>>>>>>> b693f0a277a7c0ff1b330b2bff4deef7c913cc30
 
 gem 'rails', '3.2.12'
 gem 'bootstrap-sass', '~> 3.2.0'
