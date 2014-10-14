@@ -20683,3 +20683,172 @@ Processing by JobPostingsController#index as HTML
   Rendered layouts/_header.html.erb (2.9ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 17ms (Views: 13.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-14 00:41:03 +0100
+Processing by StudentProfilesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mStudentProfile Load (0.2ms)[0m  [1mSELECT "student_profiles".* FROM "student_profiles" WHERE "student_profiles"."user_id" = '2' LIMIT 1[0m
+  [1m[35mStudentProfile Exists (0.1ms)[0m  SELECT 1 AS one FROM "student_profiles" WHERE "student_profiles"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM "student_profiles" WHERE "student_profiles"."id" = 2 LIMIT 1[0m
+  [1m[35mStudentProfile Load (0.1ms)[0m  SELECT "student_profiles".* FROM "student_profiles" WHERE "student_profiles"."id" = ? LIMIT 1  [["id", 2]]
+Redirected to http://localhost:4000/student_profiles/2
+Filter chain halted as #<Proc:0x007f66811a29c8@/home/taiwo/BEWD_Class/Rails/intern/app/controllers/student_profiles_controller.rb:9> rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/student_profiles/2" for 127.0.0.1 at 2014-10-14 00:41:03 +0100
+Processing by StudentProfilesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mStudentProfile Load (0.2ms)[0m  SELECT "student_profiles".* FROM "student_profiles" WHERE "student_profiles"."user_id" = '2' LIMIT 1
+  [1m[36mStudentProfile Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "student_profiles" WHERE "student_profiles"."id" = 2 LIMIT 1[0m
+  [1m[35mCompanyProfile Exists (0.1ms)[0m  SELECT 1 AS one FROM "company_profiles" WHERE "company_profiles"."id" = 2 LIMIT 1
+  [1m[36mStudentProfile Load (0.1ms)[0m  [1mSELECT "student_profiles".* FROM "student_profiles" WHERE "student_profiles"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mStuWorkExperience Load (0.1ms)[0m  SELECT "stu_work_experiences".* FROM "stu_work_experiences" WHERE "stu_work_experiences"."student_profile_id" = 2
+  [1m[36mSkill Load (0.1ms)[0m  [1mSELECT "skills".* FROM "skills" WHERE "skills"."student_profile_id" = 2[0m
+  [1m[35mStuReference Load (0.2ms)[0m  SELECT "stu_references".* FROM "stu_references" WHERE "stu_references"."student_profile_id" = 2
+  Rendered student_profiles/show.html.erb within layouts/application (1.1ms)
+Compiled active_admin.js  (12ms)  (pid 4623)
+Compiled application.js  (32ms)  (pid 4623)
+  Rendered devise/menu/_login_items.erb (0.2ms)
+  Rendered devise/menu/_registration_items.erb (0.2ms)
+  Rendered devise/menu/_admin_items.erb (0.0ms)
+  Rendered devise/menu/_common_user_items.erb (0.7ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 272ms (Views: 264.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-14 00:41:03 +0100
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /turbolinks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /qsort.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin/lib/namespace.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin/pages/batch_actions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin/pages/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin/application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin/base.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /active_admin.js - 304 Not Modified (70ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+Served asset /application.js - 304 Not Modified (28ms)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2014-10-14 00:41:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/rails/info/routes"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/taiwo/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateStuWorkExperiences (20130204173002)
+Migrating to CreateQsorts (20130219041947)
+Migrating to CreateSkills (20130220010224)
+Migrating to CreateStudentProfiles (20130226145934)
+Migrating to CreateCompanyProfiles (20130226150137)
+Migrating to DeviseCreateUsers (20130227053007)
+Migrating to CreateAdminNotes (20130227063920)
+Migrating to MoveAdminNotesToComments (20130227063921)
+Migrating to CreateJobPostings (20130227191448)
+Migrating to CreateStuReferences (20130302001616)
+Migrating to CreateGroups (20130305045011)
+Migrating to CreateSavedJobPostings (20130307202418)
+Migrating to CreateSavedStudentProfiles (20130307230430)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
