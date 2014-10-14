@@ -1,46 +1,46 @@
 source 'https://rubygems.org'
+ruby "2.1.2"
 
-gem 'rails', '4.1.4'
-
-gem 'sass-rails'
+gem 'rails', '3.2.12'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'sass-rails',   '~> 3.2.3'
 gem 'coffee-rails', '~> 3.2.1'
 gem 'coffee-script-source', '~> 1.4.0'
-gem 'bootstrap-sass', '~> 3.2.0'
-gem 'autoprefixer-rails'
-gem 'formtastic', '~> 3.0'
-gem 'turbolinks'
-gem 'therubyracer'
 gem 'uglifier', '>= 1.0.3'
 gem 'jquery-rails'
+gem 'jbuilder'
+gem 'turbolinks'
+gem 'autoprefixer-rails'
+gem 'railties'
+# For Paperclip
+gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git"
+gem "paperclip-dropbox", ">= 1.1.7"
+
+#For authentication
+gem 'devise' 
+
+#For uploading files
+gem 'carrierwave' 
 
 # Admin
-gem 'activeadmin', github: 'activeadmin'
-# gem 'activeadmin'
+gem 'activeadmin'
 gem 'meta_search', '>= 1.1.0.pre'
-#For Qsort
-gem 'acts_as_list'
-#For uploading files
-gem 'carrierwave'
-# Authentication
-gem 'devise', '2.2'
-gem 'devise-encryptable'
+
+#To use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '~> 3.0.0' 
 
 group :development do
-  gem 'sqlite3'
+	gem 'sqlite3'
 end
 
+group :production do
+	# gem 'pg'
+	gem 'rails_12factor'
+end
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+#For Qsort
+# gem 'acts_as_list'
+# gem 'compass-rails'
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
+# Use Uglifier as compressor for JavaScript assets
+# gem 'figaro'
