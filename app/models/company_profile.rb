@@ -13,6 +13,9 @@ class CompanyProfile < ActiveRecord::Base
   #VALIDATIONS HERE
 =begin
 =end
+
+  validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
+  
   validates :company_name, :company_type,
             :format => { :with => /\A[a-zA-Z\'\-\,\!\.\&\(\)\@\#\$\%\" ]*\z/,
                          :message => "Numbers are not allowed." },
