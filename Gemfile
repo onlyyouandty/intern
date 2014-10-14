@@ -12,9 +12,9 @@ gem 'jbuilder'
 gem 'turbolinks'
 gem 'autoprefixer-rails'
 gem 'railties'
-# For Paperclip
-gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git"
-gem "paperclip-dropbox", ">= 1.1.7"
+# # For Paperclip
+# gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git"
+# gem "paperclip-dropbox", ">= 1.1.7"
 
 #For authentication
 gem 'devise' 
