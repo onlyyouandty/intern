@@ -17226,3 +17226,99 @@ Processing by StudentProfilesController#new as HTML
   Rendered layouts/_header.html.erb (3.0ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-14 11:25:49 +0100
+Processing by StudentProfilesController#index as HTML
+Completed 401 Unauthorized in 20ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-14 11:25:49 +0100
+Processing by StudentProfilesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-10-14 11:25:49 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+  Rendered devise/menu/_login_items.erb (0.7ms)
+  Rendered devise/menu/_registration_items.erb (0.6ms)
+  Rendered devise/menu/_admin_items.erb (0.4ms)
+  Rendered devise/menu/_common_user_items.erb (0.7ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 191ms (Views: 177.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-14 11:25:49 +0100
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /jquery-ui.js - 200 OK (4ms)
+
+
+Started GET "/assets/qsort.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /qsort.js - 200 OK (1ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /turbolinks.js - 200 OK (3ms)
+
+
+Started GET "/assets/active_admin/lib/namespace.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin/lib/namespace.js - 200 OK (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin/components/jquery.aa.checkbox-toggler.js - 200 OK (1ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.dropdown-menu.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin/components/jquery.aa.dropdown-menu.js - 200 OK (2ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.popover.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin/components/jquery.aa.popover.js - 200 OK (4ms)
+
+
+Started GET "/assets/active_admin/components/jquery.aa.table-checkbox-toggler.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin/components/jquery.aa.table-checkbox-toggler.js - 200 OK (2ms)
+
+
+Started GET "/assets/active_admin/pages/application.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin/pages/application.js - 200 OK (2ms)
+
+
+Started GET "/assets/active_admin/pages/batch_actions.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin/pages/batch_actions.js - 200 OK (3ms)
+
+
+Started GET "/assets/active_admin/application.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin/application.js - 200 OK (7ms)
+
+
+Started GET "/assets/active_admin/base.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin/base.js - 200 OK (11ms)
+
+
+Started GET "/assets/active_admin.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /active_admin.js - 200 OK (11ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /bootstrap.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-14 11:25:50 +0100
+Served asset /application.js - 200 OK (15ms)
