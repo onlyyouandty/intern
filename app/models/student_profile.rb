@@ -1,7 +1,7 @@
 class StudentProfile < ActiveRecord::Base
   #SET UP ACCESSIBLE ATTRIBUTES HERE
   attr_accessible :email, :expected_graduation, :first_name, :last_completed_degree, :last_name, :school,
-                  :school_year, :user_id, :zip, :qsort, :major, :resume
+                  :school_year, :user_id, :zip, :qsort, :major, :resume, :image
 
   #ASSOCIATIONS
   has_one :user, :as => :profileable
@@ -12,6 +12,9 @@ class StudentProfile < ActiveRecord::Base
 
   #Used for file uploading
   mount_uploader :resume, ResumeUploader
+
+  #Used for image uploading
+  mount_uploader :image, ImageUploader
 
   #VALIDATIONS HERE
 =begin

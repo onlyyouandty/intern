@@ -12,19 +12,16 @@ gem 'jbuilder'
 gem 'turbolinks'
 gem 'autoprefixer-rails'
 gem 'railties'
-# # For Paperclip
-# gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git"
-# gem "paperclip-dropbox", ">= 1.1.7"
+
+# Admin
+gem 'activeadmin'
+gem 'meta_search', '>= 1.1.0.pre'
 
 #For authentication
 gem 'devise' 
 
 #For uploading files
 gem 'carrierwave' 
-
-# Admin
-gem 'activeadmin'
-gem 'meta_search', '>= 1.1.0.pre'
 
 #To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0' 

@@ -1,11 +1,14 @@
 class CompanyProfile < ActiveRecord::Base
   #SETUP YOUR ACCESSIBLE ATTRIBUTES
-  attr_accessible :company_name, :company_type, :description, :number_of_employees, :qsort, :user_id, :website, :email, :location, :tax_code, :verified
+  attr_accessible :company_name, :company_type, :description, :number_of_employees, :qsort, :user_id, :website, :email, :location, :tax_code, :image, :verified
 
   #ASSOCIATIONS
   has_one :user, :as => :profileable
   has_many :job_postings
   has_many :saved_student_profiles
+
+  #Used for image uploading
+  mount_uploader :image, ImageUploader
 
   #VALIDATIONS HERE
 =begin
