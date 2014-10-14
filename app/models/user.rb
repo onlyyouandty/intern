@@ -11,7 +11,7 @@ class User < ActiveRecord::Base
 
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
-         :token_authenticatable, :lockable, :timeoutable
+         :lockable, :timeoutable
 
   #The different user types defined in an array the %w[admin student profile] is ruby shorthand for ["admin", "student", "company"]
   USER_TYPES = %w[student company]
