@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>Stutern</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'stylesheets/application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'javascripts/application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -35,7 +35,7 @@
 
     <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
 
-    <%= stylesheet_link_tag    "application" %>
+    <%= stylesheet_link_tag    "stylesheets/application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
   </head>
