@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+<<<<<<< HEAD
 //= require bootstrap
 //= require turbolinks
 //= require qsort.js
@@ -20,3 +21,10 @@
 
 
 
+=======
+//= require foundation
+//= require qsort.js
+//= require active_admin.js
+
+$(function(){ $(document).foundation(); });
+>>>>>>> 2a4d6a4693c270c8542bed4615d6c34cf6829ea2
