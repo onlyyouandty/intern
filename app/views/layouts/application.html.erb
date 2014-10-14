@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
+<!DOCTYPE html>
+<html>
 <head>
-  <title>Stutern</title>
-  <%= stylesheet_link_tag    'stylesheets/application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  <%= javascript_include_tag "vendor/modernizr" %>
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= content_for?(:title) ? yield(:title) : "Stutern" %></title>
+
+  <%= stylesheet_link_tag'stylesheets/application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag "vendor/modernizr" %>
+
+  <%= csrf_meta_tags %>
 </head>
 <body>
-	<%= render 'layouts/header' %>
+
+  <div id="nav">
+    <%= render 'layouts/header' %>
+  </div>
+
 	<div class="container">
 		<p class="notice"><%= notice %></p>
 		<p class="alert"><%= alert %></p>
 
 		<%= yield %>
-		<%= render 'layouts/footer'%>
 	</div>
-	<!-- <div class = "body">
-		<%= yield %>
-	</div> -->
-	<!-- <div class = "foot">
-		<p>
-			<%= link_to "About", about_url %>
-		</p>
-	</div> -->
+
+	  <div id="footer">
+   <%= render 'layouts/footer' %>
+ </div>
+	
 </body>
 </html>
